@@ -1,0 +1,29 @@
+.container {
+    /* margin: 0 auto; */
+    max-width: 50rem;
+    @media (max-width: 768px) {
+        width: 80vh;
+        padding: 0 1rem;
+    }
+}
+
+.div {
+    background-color: var(--on-surface);
+    color: var(--primary-light);
+    box-shadow: 0 0 1rem var(--secondary-light);
+    padding: 3rem;
+    /* margin: 3rem 5rem; */
+    border-radius: 2rem;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 4rem;
+    color: var(--primary-dark);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.text {
+    font-size: 2rem;
+}
